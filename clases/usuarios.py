@@ -1,5 +1,5 @@
-from producto import Producto
-from carrito import Carrito
+from clases.producto import Producto
+from clases.carrito import Carrito
 import os
 
 class Usuario:

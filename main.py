@@ -33,8 +33,11 @@ class Tienda:
             cliente = Cliente("cliente")
             cliente.menu(self.catalogo)
 
-tienda = Tienda()
-tienda.iniciar()
+
+if __name__ == "__main__":
+    tienda = Tienda()
+    tienda.iniciar()
+
 
 
 
